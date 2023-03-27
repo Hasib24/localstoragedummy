@@ -12,7 +12,7 @@ const Product = ({product}) => {
     
     return (
         <div className='div'>
-            {product.name} : {product.eyeColor}
+            {product.name} : {product._id}
             <button onClick={()=>clickHandler(product._id)}>Add to card</button>
         </div>
     );
